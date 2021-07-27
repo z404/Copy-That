@@ -1,0 +1,24 @@
+body {
+    padding: 20px;
+}
+
+h3 {
+    color: blue;
+    text-align: center;
+}
+
+li {
+    padding: 15px;
+    list-style: none;
+}
+
+.clipbutton {
+    float: right;
+    width: 50%;
+}
+
+.text {
+    font-size: large;
+    font-weight: 600;
+    color: blueviolet;
+}
