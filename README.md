@@ -4,7 +4,8 @@
 | :------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------- | :------------------------------------------------------- | :--------------------------------------------------- | :------------------------------------------------------------------ |
 
 Github Pages url: https://z404.github.io/Copy-That/
-Custom URL: copy-that.me
+
+Custom URL: http://copy-that.me/
 
 Make a quick copy paste setup for a time sensitive situation. Say you need to buy Comic con tickets for 10 people and you need to input the details of all the people really fast. Or imagine you are in a situation you need to Ctrl+F a lot of content really fast then you can set this up in all the ways you want.
 
