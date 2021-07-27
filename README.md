@@ -7,9 +7,36 @@ Github Pages url: https://z404.github.io/Copy-That/
 
 Custom URL: http://copy-that.me/
 
+![visitors](https://visitor-badge.glitch.me/badge?page_id=copythat)
+
 Make a quick copy paste setup for a time sensitive situation. Say you need to buy Comic con tickets for 10 people and you need to input the details of all the people really fast. Or imagine you are in a situation you need to Ctrl+F a lot of content really fast then you can set this up in all the ways you want.
 
 We have extra commands that you can use to streamline your experience. Check the Commands section
+
+## Example: Comic Con tickets
+
+Tom and John want to go to comic con but the seats are limited and they are slow typers. They used this website to generate a copy to clipboard application that helps them fill the form faster.
+
+Each of them need to input their Name, Age and shirt size.
+
+#### Format used:
+
+```
+<title: Comic Con tickets>
+<heading: John>
+John Wright
+25
+M
+<br>
+<heading: Tom>
+Tom Blue
+24
+XL
+```
+
+#### Output given:
+
+![Image](https://cdn.discordapp.com/attachments/768807129149734922/869511326064599070/unknown.png)
 
 ## Commands Reference
 
@@ -42,31 +69,6 @@ We have extra commands that you can use to streamline your experience. Check the
 | Command | Description                    |
 | :------ | :----------------------------- |
 | `br`    | **Required**. Add a line break |
-
-## Example: Comic Con tickets
-
-Tom and John want to go to comic con but the seats are limited and they are slow typers. They used this website to generate a copy to clipboard application that helps them fill the form faster.
-
-Each of them need to input their Name, Age and shirt size.
-
-#### Format used:
-
-```
-<title: Comic Con tickets>
-<heading: John>
-John Wright
-25
-M
-<br>
-<heading: Tom>
-Tom Blue
-24
-XL
-```
-
-#### Output given:
-
-![Image](https://cdn.discordapp.com/attachments/768807129149734922/869511326064599070/unknown.png)
 
 ## Contributing
 
