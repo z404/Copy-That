@@ -7,6 +7,10 @@ h3 {
     text-align: center;
 }
 
+ul {
+    padding-top: 20px;
+}
+
 li {
     padding: 15px;
     list-style: none;
@@ -21,4 +25,8 @@ li {
     font-size: large;
     font-weight: 600;
     color: blueviolet;
+}
+
+#rawtextdiv {
+    padding-bottom: 20px;
 }
