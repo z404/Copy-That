@@ -21,7 +21,7 @@ const copyTextToClipboard = (text) => {
 };
 
 const toggle = () => {
-  const x = document.getElementById("rawtext");
+  const x = document.getElementById("rawtextdiv");
   if (x.style.display === "none") {
     x.style.display = "block";
     document.getElementById("copythat").innerText = "Copy that!";
@@ -35,13 +35,38 @@ const toggle = () => {
 const render = () => {
   //Hide text box, change button text to "edit buttons"
   const rawText = document.getElementById("rawtext").value.trim();
-  console.log(rawText);
+  //   console.log(rawText);
   const arrayText = rawText.split("\n");
   // console.log(arrayText);
   const ul = document.querySelector("ul");
   ul.innerText = "";
   for (const element of arrayText) {
     if (element === "") {
+      continue;
+    }
+    if (element[0] === "<" && element.slice(-1) === ">") {
+      const allTextString = element.slice(1, -1);
+      const allTextArr = allTextString.split(":");
+      const command = allTextArr[0].toLowerCase();
+      switch (command) {
+        case "br":
+          ul.appendChild(document.createElement("br"));
+          ul.appendChild(document.createElement("br"));
+          break;
+        case "heading":
+          const text = document.createElement("h4");
+          text.innerText = allTextString.slice(8);
+          ul.appendChild(text);
+          break;
+        case "title":
+          const title = allTextString.slice(6);
+          document.getElementById("title").innerText =
+            "Quick Copy: " + title.trim();
+          break;
+        default:
+          console.log("Invalid command");
+          break;
+      }
       continue;
     }
     const li = document.createElement("li");

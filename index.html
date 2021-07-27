@@ -13,17 +13,13 @@
 
 <body>
     <b>
-        <h3>Quick Copy to Clipboard Application</h3>
+        <h3 id="title">Quick Copy to Clipboard Application</h3>
     </b>
     <br>
-
-    <div class="form-group shadow-textarea">
+    <div class="form-group shadow-textarea" id="rawtextdiv">
         <!-- <label for="exampleFormControlTextarea6">Shadow and placeholder</label>
         <textarea class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="3" placeholder="Write something here..."></textarea> -->
-        <textarea class="form-control z-depth-1" id="rawtext" cols="30" rows="10"></textarea><br>
-        <br>
-
-
+        <textarea class="form-control z-depth-1" id="rawtext" cols="30" rows="10"></textarea>
     </div>
     <button id="copythat" class="btn btn-primary btn-lg" onclick="toggle()" style="width: 100%">Copy
         that!</button>
